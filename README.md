@@ -45,6 +45,6 @@ Tailwind CSS for designing purpose
    2. also out content as Favorite or delete it 
    3. mark it unfavorite when not needed
    4. also functionality is made in script tag 
-   5. **CodeBlock** -> It help for styling and show off code in app is imported from skelton
+   5. **[`CodeBlock`]** -> It help for styling and show off code in app is imported from skelton
    6. then it is exported to routes page.svelte and used there for creating snippet 
 4. 
