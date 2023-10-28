@@ -58,4 +58,6 @@ Tailwind CSS for designing purpose
 	# Even we can import theme for highlighting code snippet 
 	import 'highlight.js/styles/an-old-hope.min.css'
     ```
+ <img width="1074" alt="image" src="https://github.com/Prashantkry/programmmingContentCreator/assets/71703153/a96bdb35-a3d9-448d-8fec-8a4b12a99fc3">
+
 6. 
