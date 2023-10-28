@@ -47,4 +47,17 @@ Tailwind CSS for designing purpose
    4. also functionality is made in script tag 
    5. **[`CodeBlock`]** -> It help for styling and show off code in app is imported from skelton
    6. then it is exported to routes page.svelte and used there for creating snippet 
-4. 
+4. then in layout [`storeHighlightJs`] is imported from skelton also [`npm i highlight.js`] is installed and it help to high light code in field ticket application and then it is imported in layout file 
+5. Example can be seen 
+   1. ```
+   
+	**Skelton UI**
+	import { AppBar, AppShell,storeHighlightJs} from '@skeletonlabs/skeleton';
+	import hljs from 'highlight.js'
+	# to make skelton UI to be aware of highlighter by saying store ⬇
+	storeHighlightJs.set(hljs)
+	# Even we can import theme for highlighting code snippet 
+	import 'highlight.js/styles/an-old-hope.min.css'
+    
+    ```
+6. 

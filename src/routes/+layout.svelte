@@ -3,8 +3,17 @@
 
 	// Floating UI for Popups
 	import { computePosition, autoUpdate, flip, shift, offset, arrow } from '@floating-ui/dom';
-	import { AppBar, AppShell, storePopup } from '@skeletonlabs/skeleton';
+	import { storePopup } from '@skeletonlabs/skeleton';
 	storePopup.set({ computePosition, autoUpdate, flip, shift, offset, arrow });
+
+	// Skelton UI
+	import { AppBar, AppShell,storeHighlightJs} from '@skeletonlabs/skeleton';
+	import hljs from 'highlight.js'
+	// to make skelton UI to be aware of highlighter by saying store ⬇
+	storeHighlightJs.set(hljs)
+	// Even we can import theme for highlighting code snippet 
+	import 'highlight.js/styles/an-old-hope.min.css'
+
 </script>
 
 <!-- Importing tools of skelton for project -->
