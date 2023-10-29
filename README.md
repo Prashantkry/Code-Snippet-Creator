@@ -49,8 +49,7 @@ Tailwind CSS for designing purpose
    6. then it is exported to routes page.svelte and used there for creating snippet 
 4. then in layout [`storeHighlightJs`] is imported from skelton also [`npm i highlight.js`] is installed and it help to high light code in field ticket application and then it is imported in layout file 
 5. Example can be seen 
-   1. ```
-   
+	```ruby
 	**Skelton UI**
 	import { AppBar, AppShell,storeHighlightJs} from '@skeletonlabs/skeleton';
 	import hljs from 'highlight.js'
@@ -58,14 +57,5 @@ Tailwind CSS for designing purpose
 	storeHighlightJs.set(hljs)
 	# Even we can import theme for highlighting code snippet 
 	import 'highlight.js/styles/an-old-hope.min.css'
-    
     ```
-6. Now Work will be done in [`app.d.ts`] it stores all different types svelte application and when any type is created here it is recognized throughout entire application and it use in page svelte also bind property of svelte will be used to bind data of form 
-7. Snippet store 
-			a local writeAble that allow us to store code snippets
-			create / delete snippet 
-			favorite snippets 
-			+page.ts -> to initially load in some example snippets (mocking a database request)
-
-         for this [`Snippet.ts file`] is created in src 
-8. page.ts is created in routes folder to make page load and create snippet from input box
+6. 
