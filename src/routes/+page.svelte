@@ -53,6 +53,8 @@
 					<option value="Java">Java</option>
 					<option value="JavaScript">JavaScript</option>
 					<option value="C++">C++</option>
+					<option value="C++">HTML</option>
+					<option value="C++">Python</option>
 				</select>
 			</label>
 
