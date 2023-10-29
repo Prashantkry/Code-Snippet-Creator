@@ -58,4 +58,12 @@ Tailwind CSS for designing purpose
 	# Even we can import theme for highlighting code snippet 
 	import 'highlight.js/styles/an-old-hope.min.css'
     ```
-6. 
+ 6. Now Work will be done in [`app.d.ts`] it stores all different types svelte application and when any type is created here it is recognized throughout entire application and it use in page svelte also bind property of svelte will be used to bind data of form 
+7. Snippet store 
+			a local writeAble that allow us to store code snippets
+			create / delete snippet 
+			favorite snippets 
+			+page.ts -> to initially load in some example snippets (mocking a database request)
+
+         for this [`Snippet.ts file`] is created in src 
+8. page.ts is created in routes folder to make page load and create snippet from input box. 
