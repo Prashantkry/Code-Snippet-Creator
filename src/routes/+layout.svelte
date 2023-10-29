@@ -23,5 +23,12 @@
 			<h3 class=" text-left font-semibold line-clamp-1 text-inherit text-red-600 text-xl font-mrs-saint-delafield">CodeShare</h3>
 		</AppBar>
 	</svelte:fragment>
+	
+	<svelte:fragment slot="footer">
+		<div class="w-[100%]">
+			<h3 class="text-sm mt-4 font-serif w-[100%] h-[6vh] text-center shadow-inner pt-3 text-black">&#169; Prashant Kumar ,2023</h3>
+		</div>
+	</svelte:fragment>
 	<slot />
+
 </AppShell>
